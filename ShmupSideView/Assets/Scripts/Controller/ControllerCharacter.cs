@@ -40,10 +40,12 @@ public class ControllerCharacter : MonoBehaviour
         //characterModel.AddPosition(new Vector2(Input.GetAxis("Horizontal") * speed * Time.deltaTime, Input.GetAxis("Vertical") * speed * Time.deltaTime));
         //InertiaDown MARCHE INITIALEMENT
         //characterModel.AddPosition(new Vector2(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, Input.GetAxisRaw("Vertical") * speed * Time.deltaTime));
+        //Déplacement
         float deltaPositionX = Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime;
         float deltaPositionY = Input.GetAxisRaw("Vertical") * speed * Time.deltaTime;
         Vector2 deltaPosition = new Vector2(deltaPositionX, deltaPositionY);
 
+        //Character ne peux pas sortir de la camera
         if (characterModel.GetPosition().GetValue().y + deltaPosition.y >= camera.transform.position.y + deltaY)
         {
             deltaPosition.y = 0F;
