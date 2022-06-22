@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ControllerCharacter : MonoBehaviour
 {
-    [SerializeField] private LifeView lifeView;
+    //[SerializeField] private LifeView lifeView;
     [SerializeField] private PositionView positionView;
     private CharacterModel characterModel;
 
@@ -13,11 +13,12 @@ public class ControllerCharacter : MonoBehaviour
     public Transform ProjectileSpawn;
 
     //Gestion du tir
+    public bool _weaponUp = false;
     private float _canFire = -1f;
     [SerializeField] private float _fireRate = 0.15f;
 
     [SerializeField] private float speed = 10;
-    [SerializeField] private float speedCam = 3;
+    [SerializeField] private float speedCam = 3.6f;
 
     public Transform camera;
 
@@ -58,10 +59,13 @@ public class ControllerCharacter : MonoBehaviour
         characterModel.AddPosition(new Vector2(speedCam * Time.deltaTime, 0f) + deltaPosition);
 
         //Gestion du tir
-        if (Time.time > _canFire)
+        if (_weaponUp == true)
         {
-            _canFire = Time.time + _fireRate;
-            Instantiate(CharacterProjectile, ProjectileSpawn.position, transform.rotation);
+            if (Time.time > _canFire)
+            {
+                _canFire = Time.time + _fireRate;
+                Instantiate(CharacterProjectile, ProjectileSpawn.position, transform.rotation);
+            }
         }
         
     }
@@ -72,11 +76,17 @@ public class ControllerCharacter : MonoBehaviour
         characterModel.AddLife(-1);
     }
 
-    /*private void OnCollisionEnter(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "EnemyProjectil")
         {
             OnDamage();
         }
-    }*/
+
+        if (collision.gameObject.tag == "PowerUpWeapon")
+        {
+            _weaponUp = true;
+            Debug.Log("hgfhj");
+        }
+    }
 }

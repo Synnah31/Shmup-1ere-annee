@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ennemi
   - Character Projectil
+  - PowerUpWeapon
+  - BoxBezierIsActive
+  - ColliderCamera
   layers:
   - Default
   - TransparentFX

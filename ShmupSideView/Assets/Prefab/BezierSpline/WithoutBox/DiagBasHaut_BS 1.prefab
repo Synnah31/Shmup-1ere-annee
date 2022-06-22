@@ -47,7 +47,7 @@ MonoBehaviour:
   m_precedingControlPointLocalPosition: {x: 7.108673, y: -2.9189558, z: -0.6666666}
   m_precedingControlPointPosition: {x: 26.710716, y: -2.3749418, z: -1.6666666}
   m_followingControlPointLocalPosition: {x: -7.108673, y: 2.9189558, z: 0.6666666}
-  m_followingControlPointPosition: {x: 12.49337, y: 3.4629698, z: -0.33333334}
+  m_followingControlPointPosition: {x: 12.49337, y: 3.4629698, z: -0.33333337}
   m_handleMode: 2
   m_normal: {x: 0, y: 1, z: 0}
   m_autoCalculatedNormalAngleOffset: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_precedingControlPointLocalPosition: {x: 7.108675, y: -2.9189558, z: -0.6666667}
   m_precedingControlPointPosition: {x: 5.384697, y: 6.3819256, z: 0.3333333}
   m_followingControlPointLocalPosition: {x: -7.108676, y: 2.9189558, z: 0.66666675}
-  m_followingControlPointPosition: {x: -8.832653, y: 12.219837, z: 1.6666667}
+  m_followingControlPointPosition: {x: -8.832654, y: 12.219837, z: 1.6666667}
   m_handleMode: 2
   m_normal: {x: 0, y: 1, z: 0}
   m_autoCalculatedNormalAngleOffset: 0
