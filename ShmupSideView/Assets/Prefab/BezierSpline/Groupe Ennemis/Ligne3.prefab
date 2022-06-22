@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6788626961237035432}
   - component: {fileID: 796325817234274637}
+  - component: {fileID: 654157483659479769}
   m_Layer: 0
   m_Name: Ligne3
   m_TagString: Untagged
@@ -85,6 +86,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &654157483659479769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419789489816239445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68b0ad04574d3348bab4ffc35bae627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &665768380771390325
 PrefabInstance:
   m_ObjectHideFlags: 0

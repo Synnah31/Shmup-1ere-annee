@@ -47,7 +47,7 @@ MonoBehaviour:
   m_precedingControlPointLocalPosition: {x: 11.981698, y: 5.6063004, z: -0.66666675}
   m_precedingControlPointPosition: {x: 14.880756, y: 4.457855, z: 0.33333325}
   m_followingControlPointLocalPosition: {x: -11.981697, y: -5.6063004, z: 0.66666675}
-  m_followingControlPointPosition: {x: -9.08264, y: -6.7547455, z: 1.6666667}
+  m_followingControlPointPosition: {x: -9.082639, y: -6.7547455, z: 1.6666667}
   m_handleMode: 2
   m_normal: {x: 0, y: 1, z: 0}
   m_autoCalculatedNormalAngleOffset: 0
@@ -67,6 +67,7 @@ GameObject:
   m_Component:
   - component: {fileID: 649898605348067959}
   - component: {fileID: 649898605348067958}
+  - component: {fileID: -2006744845609092796}
   m_Layer: 0
   m_Name: MultiDiagHautBas_BS 1
   m_TagString: Untagged
@@ -113,6 +114,18 @@ MonoBehaviour:
   m_evenlySpacedPointsResolution: 10
   m_evenlySpacedPointsAccuracy: 3
   m_pointCacheResolution: 100
+--- !u!114 &-2006744845609092796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649898605348067957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68b0ad04574d3348bab4ffc35bae627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &649898605847002649
 GameObject:
   m_ObjectHideFlags: 0

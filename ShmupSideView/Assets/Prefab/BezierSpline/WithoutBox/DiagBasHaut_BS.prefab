@@ -67,8 +67,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7565115810247937381}
   - component: {fileID: 7565115810247937380}
+  - component: {fileID: 7597226356076598642}
   m_Layer: 0
-  m_Name: DiagBasHaut_BS 1
+  m_Name: DiagBasHaut_BS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,6 +114,18 @@ MonoBehaviour:
   m_evenlySpacedPointsResolution: 10
   m_evenlySpacedPointsAccuracy: 3
   m_pointCacheResolution: 100
+--- !u!114 &7597226356076598642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7565115810247937383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68b0ad04574d3348bab4ffc35bae627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7565115810513703277
 GameObject:
   m_ObjectHideFlags: 0

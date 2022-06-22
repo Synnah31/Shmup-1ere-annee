@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7225946020364091943}
   - component: {fileID: 4948575808723958421}
   - component: {fileID: 7978004344511419749}
+  - component: {fileID: -2932669752723776564}
   m_Layer: 0
   m_Name: EnFleche3
   m_TagString: Untagged
@@ -107,6 +108,18 @@ MonoBehaviour:
   onPathCompleted:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-2932669752723776564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685706397734690637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68b0ad04574d3348bab4ffc35bae627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4373583229653047163
 PrefabInstance:
   m_ObjectHideFlags: 0

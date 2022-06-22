@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6848434345117987278}
   - component: {fileID: 9214908154229393788}
   - component: {fileID: 6195442293567448716}
+  - component: {fileID: -8412199755821327715}
   m_Layer: 0
   m_Name: EnV3
   m_TagString: Untagged
@@ -107,6 +108,18 @@ MonoBehaviour:
   onPathCompleted:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-8412199755821327715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3659507898730736804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68b0ad04574d3348bab4ffc35bae627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &334109783282524109
 PrefabInstance:
   m_ObjectHideFlags: 0
