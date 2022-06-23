@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3035271857212206926}
   - component: {fileID: 960954109689192456}
   - component: {fileID: 1257414763088928343}
+  - component: {fileID: -389813503128564155}
   m_Layer: 0
   m_Name: Diagonale2
   m_TagString: Untagged
@@ -99,6 +100,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68b0ad04574d3348bab4ffc35bae627, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-389813503128564155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8239262239092722311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148310ac13c958d4c93f53cdfe985375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spline: {fileID: 0}
+  travelMode: 0
+  speed: 5
+  m_normalizedT: 0
+  rotationLerpModifier: 10
+  lookAt: 0
+  onPathCompleted:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &5352424387419453526
 PrefabInstance:
   m_ObjectHideFlags: 0
