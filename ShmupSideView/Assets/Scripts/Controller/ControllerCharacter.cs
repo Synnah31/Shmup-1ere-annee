@@ -15,10 +15,10 @@ public class ControllerCharacter : MonoBehaviour
     //Gestion du tir
     public bool _weaponUp = false;
     private float _canFire = -1f;
-    [SerializeField] private float _fireRate = 0.15f;
+    [SerializeField] private float _fireRate = 0.2f;
 
     [SerializeField] private float speed = 10;
-    [SerializeField] private float speedCam = 3.6f;
+    [SerializeField] private float speedCam = 4.5f;
 
     public Transform camera;
 
@@ -74,11 +74,16 @@ public class ControllerCharacter : MonoBehaviour
     {
         Debug.Log("-1HP");
         characterModel.AddLife(-1);
+
+        if (characterModel.GetLife().GetValue().GetValue() <= 0f)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "EnemyProjectil")
+        if (collision.gameObject.tag == "Ennemi" || collision.gameObject.tag == "EnemyProjectil")
         {
             OnDamage();
         }

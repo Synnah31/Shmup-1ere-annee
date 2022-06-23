@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GobelinLourdModel : MonoBehaviour
+public class GobelinLourdModel
 {
+    public FloatObservable healthPoints;
+    public float maxHealthPoints = 5f;
     // Start is called before the first frame update
-    void Start()
+    public GobelinLourdModel()
     {
-        
+        healthPoints = new FloatObservable(maxHealthPoints, maxHealthPoints);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddLife(float deltaLife)
     {
-        
+        healthPoints.Add(deltaLife);
     }
+    // Update is called once per frame
+
 }

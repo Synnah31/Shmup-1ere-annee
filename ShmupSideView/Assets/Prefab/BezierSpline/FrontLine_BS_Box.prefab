@@ -48,6 +48,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectFils: {fileID: 7003439714646248519}
   objectFils2: {fileID: 535521957533440608}
+  objectFils3: {fileID: 0}
+  objectFils4: {fileID: 0}
+  objectFils5: {fileID: 0}
+  objectFils6: {fileID: 0}
+  objectFils7: {fileID: 0}
+  objectFils8: {fileID: 0}
+  objectFils9: {fileID: 0}
 --- !u!61 &7003439715628987781
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -253,11 +260,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 831533445236640388, guid: 7696ddbe70aa7034697617db749a5b15, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.729103
+      value: 19.46
       objectReference: {fileID: 0}
     - target: {fileID: 831533445236640388, guid: 7696ddbe70aa7034697617db749a5b15, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.3481245
+      value: -2.62
       objectReference: {fileID: 0}
     - target: {fileID: 831533445236640388, guid: 7696ddbe70aa7034697617db749a5b15, type: 3}
       propertyPath: m_LocalPosition.z

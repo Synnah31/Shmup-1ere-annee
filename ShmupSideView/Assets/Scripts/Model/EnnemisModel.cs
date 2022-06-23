@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnnemisModel
 {
     public FloatObservable healthPoints;
-    public float maxHealthPoints = 5f;
+    public float maxHealthPoints = 3f;
     // Start is called before the first frame update
     public EnnemisModel()
     {
