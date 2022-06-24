@@ -77,7 +77,7 @@ public class ControllerCharacter : MonoBehaviour
 
         if (characterModel.GetLife().GetValue().GetValue() <= 0f)
         {
-            Destroy(gameObject);
+            Destroy(gameObject); //Et ouvrir menu pause
         }
     }
 
@@ -90,7 +90,7 @@ public class ControllerCharacter : MonoBehaviour
 
         if (collision.gameObject.tag == "PowerUpWeapon")
         {
-            _weaponUp = true;
+            _weaponUp = true; //Et changer de Skin+Anim
             Debug.Log("hgfhj");
         }
     }
