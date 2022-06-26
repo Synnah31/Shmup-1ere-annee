@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5546956904459054358}
   - component: {fileID: 549713639584545463}
   - component: {fileID: -1348034953004928371}
+  - component: {fileID: -7860603920334384822}
   m_Layer: 0
   m_Name: Gobelin Lourd
   m_TagString: Ennemi
@@ -179,3 +180,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa894c9947cecdc4bbb9998805432999, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &-7860603920334384822
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7061433754579268823}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b4c3edcf3eab10c4187da24ad8175215, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
