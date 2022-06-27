@@ -9,6 +9,9 @@ TagManager:
   - PowerUpWeapon
   - BoxBezierIsActive
   - ColliderCamera
+  - PowerUpProjectils
+  - PowerUpHeal
+  - PowerUpInvincibilite
   layers:
   - Default
   - TransparentFX

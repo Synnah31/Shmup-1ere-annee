@@ -96,9 +96,17 @@ public class ControllerCharacter : MonoBehaviour
         if (collision.gameObject.tag == "PowerUpWeapon")
         {
             _weaponUp = true; //Et changer de Skin+Anim
-            Debug.Log("hgfhj");
 
             animator.SetBool("HasGun", true);
+        }
+
+        if (collision.gameObject.tag == "PowerUpHeal")
+        {
+            if (characterModel.GetLife().GetValue().GetValue() < 3f || characterModel.GetLife().GetValue().GetValue() > 0f)
+            {
+                characterModel.AddLife(+1);
+                Debug.Log(characterModel.GetLife().GetValue().GetValue() + "HP");
+            }
         }
     }
 }
