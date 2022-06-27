@@ -8,9 +8,15 @@ public class ControllerCharacter : MonoBehaviour
     [SerializeField] private PositionView positionView;
     private CharacterModel characterModel;
 
+    [SerializeField] private MenuController menuController;
+
     //Gestion des projectiles
     public GameObject CharacterProjectile;
+    // GameObject CharacterProjectile2;
     public Transform ProjectileSpawn;
+    public Transform ProjectileSpawn2;
+
+    private bool isSecondProjectil;
 
     //Gestion du tir
     public bool _weaponUp = false;
@@ -36,6 +42,8 @@ public class ControllerCharacter : MonoBehaviour
         characterModel.GetPosition().Subscribe(positionView);
 
         animator = gameObject.GetComponent<Animator>();
+
+        //menuController = new MenuController();
     }
 
     // Update is called once per frame
@@ -70,6 +78,11 @@ public class ControllerCharacter : MonoBehaviour
             {
                 _canFire = Time.time + _fireRate;
                 Instantiate(CharacterProjectile, ProjectileSpawn.position, transform.rotation);
+
+                if(isSecondProjectil==true)
+                {
+                    Instantiate(CharacterProjectile, ProjectileSpawn2.position, transform.rotation);
+                }
             }
         }
         
@@ -82,7 +95,9 @@ public class ControllerCharacter : MonoBehaviour
 
         if (characterModel.GetLife().GetValue().GetValue() <= 0f)
         {
-            Destroy(gameObject); //Et ouvrir menu pause
+            Destroy(gameObject);
+            //menuController.Pause(); //Et ouvrir menu pause
+            menuController.Pause(); 
         }
     }
 
@@ -93,13 +108,15 @@ public class ControllerCharacter : MonoBehaviour
             OnDamage();
         }
 
+        //PowerUp Weapon unlocked
         if (collision.gameObject.tag == "PowerUpWeapon")
         {
-            _weaponUp = true; //Et changer de Skin+Anim
+            _weaponUp = true;
 
             animator.SetBool("HasGun", true);
         }
 
+        //PowerUp Heal
         if (collision.gameObject.tag == "PowerUpHeal")
         {
             if (characterModel.GetLife().GetValue().GetValue() < 3f || characterModel.GetLife().GetValue().GetValue() > 0f)
@@ -108,5 +125,30 @@ public class ControllerCharacter : MonoBehaviour
                 Debug.Log(characterModel.GetLife().GetValue().GetValue() + "HP");
             }
         }
+
+        if (collision.gameObject.tag == "PowerUpProjectils")
+        {
+            isSecondProjectil = true;
+        }
+
+        if (collision.gameObject.tag == "PowerUpInvincibilite")
+        {
+            StartCoroutine(ShieldPowerUp());
+            Debug.Log("PowerUpShiel taken");
+        }
+    }
+
+    IEnumerator ShieldPowerUp()
+    {
+        Debug.Log("coroutine de tes morts");
+        animator.SetBool("HasShield", true);
+        _weaponUp = false;
+        yield return new WaitForSeconds(15f);
+        animator.SetBool("HasShield", false);
+        //animator.SetBool("ShieldSoonDown", true);
+        //yield return new WaitForSeconds(5f);
+        //animator.SetBool("ShieldSoonDown", false);
+        animator.SetBool("HasGun", true);
+        _weaponUp = true;
     }
 }
