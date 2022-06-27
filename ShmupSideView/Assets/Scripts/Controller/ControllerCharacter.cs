@@ -25,12 +25,17 @@ public class ControllerCharacter : MonoBehaviour
     [SerializeField] private float deltaX;
     [SerializeField] private float deltaY;
 
+    Animator animator;
+    bool HasGun = false;
+
     // Start is called before the first frame update
     void Start()
     {
         characterModel = new CharacterModel(2, 5, 3, 3);
         //characterModel.GetLife().Subscribe(lifeView);
         characterModel.GetPosition().Subscribe(positionView);
+
+        animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -92,6 +97,8 @@ public class ControllerCharacter : MonoBehaviour
         {
             _weaponUp = true; //Et changer de Skin+Anim
             Debug.Log("hgfhj");
+
+            animator.SetBool("HasGun", true);
         }
     }
 }
