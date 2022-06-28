@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: a95926256e109df458fae8d66a92ba5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6854722017620613874
+    second: sprite_sheet_distance_0
+  - first:
+      213: -5267240923960225593
+    second: sprite_sheet_distance_1
+  - first:
+      213: -5227634695135439940
+    second: sprite_sheet_distance_2
+  - first:
+      213: -1909170388039185264
+    second: sprite_sheet_distance_3
+  - first:
+      213: -601397179164451469
+    second: sprite_sheet_distance_4
+  - first:
+      213: 2352091260358449764
+    second: sprite_sheet_distance_5
+  - first:
+      213: -6901375945164629538
+    second: sprite_sheet_distance_6
+  - first:
+      213: 4233595599098355044
+    second: sprite_sheet_distance_7
+  - first:
+      213: -4567630461438222376
+    second: sprite_sheet_distance_8
+  - first:
+      213: -6024388842657501227
+    second: sprite_sheet_distance_9
+  - first:
+      213: 9013207110104051091
+    second: sprite_sheet_distance_10
+  - first:
+      213: -6779995377581276941
+    second: sprite_sheet_distance_11
+  - first:
+      213: -4624479939263339402
+    second: sprite_sheet_distance_12
+  - first:
+      213: 870204111199345786
+    second: sprite_sheet_distance_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_sheet_distance_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa535e6b5dd02f50800000000000000
+      internalID: 6854722017620613874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_1
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 602.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c053f4694007e6b0800000000000000
+      internalID: -5267240923960225593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_2
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 602.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3d1f421f5b377b0800000000000000
+      internalID: -5227634695135439940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_3
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 602.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cca35b5a34185e0800000000000000
+      internalID: -1909170388039185264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_4
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 602.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d1bfea37867a7f0800000000000000
+      internalID: -601397179164451469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_5
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 602.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a57f41a8e44a020800000000000000
+      internalID: 2352091260358449764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_6
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 602.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9590794236930a0800000000000000
+      internalID: -6901375945164629538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d1aee44c0c0ca30800000000000000
+      internalID: 4233595599098355044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_8
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df98b0bb448c90c0800000000000000
+      internalID: -4567630461438222376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_9
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfa2942442156ca0800000000000000
+      internalID: -6024388842657501227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_10
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39de6c4dc18551d70800000000000000
+      internalID: 9013207110104051091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_11
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f04a74402e98e1a0800000000000000
+      internalID: -6779995377581276941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_12
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674e94d2ffb82dfb0800000000000000
+      internalID: -4624479939263339402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_13
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0.5
+        width: 630.7143
+        height: 602.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c1f125706931c00800000000000000
+      internalID: 870204111199345786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 88c2f0c989db569428d7a6f386b30baf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2549965218222093502
+    second: magicienne_sprite3_0
+  - first:
+      213: -6843070054172414947
+    second: magicienne_sprite3_1
+  - first:
+      213: 3561382566918698405
+    second: magicienne_sprite3_2
+  - first:
+      213: 1316105902028353849
+    second: magicienne_sprite3_3
+  - first:
+      213: -4587201168667931163
+    second: magicienne_sprite3_4
+  - first:
+      213: -3368250522532446363
+    second: magicienne_sprite3_5
+  - first:
+      213: 2117897447043336907
+    second: magicienne_sprite3_6
+  - first:
+      213: -1270311650766416000
+    second: magicienne_sprite3_7
+  - first:
+      213: -5078204138696195467
+    second: magicienne_sprite3_8
+  - first:
+      213: -5386304309415489177
+    second: magicienne_sprite3_9
+  - first:
+      213: -9119510029440279438
+    second: magicienne_sprite3_10
+  - first:
+      213: -2064073630223937679
+    second: magicienne_sprite3_11
+  - first:
+      213: 8071721923174759759
+    second: magicienne_sprite3_12
+  - first:
+      213: 7862497702715497675
+    second: magicienne_sprite3_13
+  - first:
+      213: 1174556640803916556
+    second: magicienne_sprite3_14
+  - first:
+      213: 6252222097043789201
+    second: magicienne_sprite3_15
+  - first:
+      213: 245210710922065337
+    second: magicienne_sprite3_16
+  - first:
+      213: 5499657627664394458
+    second: magicienne_sprite3_17
+  - first:
+      213: 1031776456309095526
+    second: magicienne_sprite3_18
+  - first:
+      213: -7156522180669247719
+    second: magicienne_sprite3_19
+  - first:
+      213: 7042628344303646582
+    second: magicienne_sprite3_20
+  - first:
+      213: -9091130732971702967
+    second: magicienne_sprite3_21
+  - first:
+      213: -7698852235454467443
+    second: magicienne_sprite3_22
+  - first:
+      213: -2085519291647676295
+    second: magicienne_sprite3_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magicienne_sprite3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1710
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4babd0bdb436320800000000000000
+      internalID: 2549965218222093502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1710
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ca0f7ba088801a0800000000000000
+      internalID: -6843070054172414947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_2
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1710
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5357a53929c6130800000000000000
+      internalID: 3561382566918698405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1710
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931f139485fb34210800000000000000
+      internalID: 1316105902028353849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1368
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed8a4457dcf650c0800000000000000
+      internalID: -4587201168667931163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_5
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1368
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ffde9def19141d0800000000000000
+      internalID: -3368250522532446363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_6
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1368
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca89b9c188446d10800000000000000
+      internalID: 2117897447043336907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_7
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1368
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0871706b842fe5ee0800000000000000
+      internalID: -1270311650766416000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1026
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5724818cd389689b0800000000000000
+      internalID: -5078204138696195467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1026
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7615229b4c00045b0800000000000000
+      internalID: -5386304309415489177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_10
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1026
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c999902fdf07180800000000000000
+      internalID: -9119510029440279438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_11
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1026
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f404028ffea53e0800000000000000
+      internalID: -2064073630223937679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d7094c254840070800000000000000
+      internalID: 8071721923174759759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 684
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc9ea9d0043d1d60800000000000000
+      internalID: 7862497702715497675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_14
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 684
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b81bfaa0ddc4010800000000000000
+      internalID: 1174556640803916556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_15
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 684
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195942f1fda54c650800000000000000
+      internalID: 6252222097043789201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b571a7a7d9276300800000000000000
+      internalID: 245210710922065337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_17
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 342
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad824335975b25c40800000000000000
+      internalID: 5499657627664394458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_18
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 342
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c3aed683b915e00800000000000000
+      internalID: 1031776456309095526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_19
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 342
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f610a5efceeac90800000000000000
+      internalID: -7156522180669247719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677f05b6a217cb160800000000000000
+      internalID: 7042628344303646582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_21
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945c596e3c0d5d180800000000000000
+      internalID: -9091130732971702967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_22
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 0
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82b38f9eae282590800000000000000
+      internalID: -7698852235454467443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_23
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 0
+        width: 333
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970bd19f04fbe03e0800000000000000
+      internalID: -2085519291647676295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

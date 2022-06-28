@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 88c2f0c989db569428d7a6f386b30baf
+guid: 3344ed03ec54b5847ba8df9d1d89b6bf
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -74,6 +74,12 @@ TextureImporter:
   - first:
       213: -2085519291647676295
     second: magicienne_sprite3_23
+  - first:
+      213: -2740337390406354489
+    second: magicienne_sprite3_24
+  - first:
+      213: -6551294568959853246
+    second: magicienne_sprite3_25
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -167,9 +173,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1710
+        y: 2056.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,9 +194,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 1710
+        y: 2056.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,9 +215,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 666
-        y: 1710
+        y: 2056.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,9 +236,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 999
-        y: 1710
+        y: 2056.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,9 +257,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1368
+        y: 1714.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,9 +278,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 1368
+        y: 1714.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,9 +299,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 666
-        y: 1368
+        y: 1714.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,9 +320,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 999
-        y: 1368
+        y: 1714.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,9 +341,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1026
+        y: 1372.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,9 +362,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 1026
+        y: 1372.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,9 +383,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 666
-        y: 1026
+        y: 1372.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,9 +404,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 999
-        y: 1026
+        y: 1372.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,9 +425,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 684
+        y: 1030.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,9 +446,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 684
+        y: 1030.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,9 +467,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 666
-        y: 684
+        y: 1030.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,9 +488,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 999
-        y: 684
+        y: 1030.2856
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,9 +509,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 342
+        y: 688.2857
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,9 +530,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 342
+        y: 688.2857
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -545,9 +551,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 666
-        y: 342
+        y: 688.2857
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -566,9 +572,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 999
-        y: 342
+        y: 688.2857
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,9 +593,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 346.2857
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -608,9 +614,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 333
-        y: 0
+        y: 346.2857
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -629,9 +635,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 666
-        y: 0
+        y: 346.2857
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -650,9 +656,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 999
-        y: 0
+        y: 346.2857
         width: 333
-        height: 342
+        height: 342.7143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,6 +668,48 @@ TextureImporter:
       bones: []
       spriteID: 970bd19f04fbe03e0800000000000000
       internalID: -2085519291647676295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4.2857056
+        width: 333
+        height: 342.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9bb1099ad58f9d0800000000000000
+      internalID: -2740337390406354489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicienne_sprite3_25
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 4.2857056
+        width: 333
+        height: 342.7143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24db33ebc402515a0800000000000000
+      internalID: -6551294568959853246
       vertices: []
       indices: 
       edges: []

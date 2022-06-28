@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a95926256e109df458fae8d66a92ba5e
+guid: 0ac0a1557d8355c47afa1fd05564cdd5
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -44,6 +44,9 @@ TextureImporter:
   - first:
       213: 870204111199345786
     second: sprite_sheet_distance_13
+  - first:
+      213: -5839494754421880195
+    second: sprite_sheet_distance_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -107,7 +110,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -119,7 +122,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -137,9 +140,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 602.5
+        y: 1110.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,9 +161,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 630
-        y: 602.5
+        y: 1110.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,9 +182,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1260
-        y: 602.5
+        y: 1110.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,9 +203,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1890
-        y: 602.5
+        y: 1110.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,9 +224,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2520
-        y: 602.5
+        y: 1110.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,9 +245,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3150
-        y: 602.5
+        y: 1110.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,9 +266,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3780
-        y: 602.5
+        y: 1110.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,9 +287,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.5
+        y: 555.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,9 +308,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 630
-        y: 0.5
+        y: 555.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,9 +329,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1260
-        y: 0.5
+        y: 555.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,9 +350,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1890
-        y: 0.5
+        y: 555.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,9 +371,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2520
-        y: 0.5
+        y: 555.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,9 +392,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3150
-        y: 0.5
+        y: 555.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,9 +413,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3780
-        y: 0.5
+        y: 555.6667
         width: 630.7143
-        height: 602.5
+        height: 555.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,6 +425,27 @@ TextureImporter:
       bones: []
       spriteID: a7c1f125706931c00800000000000000
       internalID: 870204111199345786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_distance_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.666687
+        width: 630.7143
+        height: 555.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a4de6b572f5fea0800000000000000
+      internalID: -5839494754421880195
       vertices: []
       indices: 
       edges: []
