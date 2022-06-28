@@ -150,14 +150,14 @@ public class ControllerCharacter : MonoBehaviour
     //Enumerator PowerUp Shield/Invincibility
     IEnumerator ShieldPowerUp()
     {
-        Debug.Log("coroutine de tes morts");
+        Debug.Log("coroutine Shield");
         animator.SetBool("HasShield", true);
         _weaponUp = false;
         yield return new WaitForSeconds(15f);
+        animator.SetBool("ShieldBlink", true);      
+        yield return new WaitForSeconds(5f);
+        animator.SetBool("ShieldBlink", false);
         animator.SetBool("HasShield", false);
-        //animator.SetBool("ShieldSoonDown", true);
-        //yield return new WaitForSeconds(5f);
-        //animator.SetBool("ShieldSoonDown", false);
         animator.SetBool("HasGun", true);
         _weaponUp = true;
     }
