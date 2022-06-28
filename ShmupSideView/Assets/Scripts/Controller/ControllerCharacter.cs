@@ -100,6 +100,8 @@ public class ControllerCharacter : MonoBehaviour
             menuController.Pause(); 
         }
     }
+    
+    //public void Disable(Input.mouse)
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -108,8 +110,13 @@ public class ControllerCharacter : MonoBehaviour
             OnDamage();
         }
 
+        if (collision.gameObject.tag == "Wall")
+        {
+            
+        }
+
         //PowerUp Weapon unlocked
-        if (collision.gameObject.tag == "PowerUpWeapon")
+            if (collision.gameObject.tag == "PowerUpWeapon")
         {
             _weaponUp = true;
 
@@ -126,11 +133,13 @@ public class ControllerCharacter : MonoBehaviour
             }
         }
 
+        //PowerUp projectil
         if (collision.gameObject.tag == "PowerUpProjectils")
         {
             isSecondProjectil = true;
         }
 
+        //PowerUp Custom: Shield/Invincibility
         if (collision.gameObject.tag == "PowerUpInvincibilite")
         {
             StartCoroutine(ShieldPowerUp());
@@ -138,6 +147,7 @@ public class ControllerCharacter : MonoBehaviour
         }
     }
 
+    //Enumerator PowerUp Shield/Invincibility
     IEnumerator ShieldPowerUp()
     {
         Debug.Log("coroutine de tes morts");
