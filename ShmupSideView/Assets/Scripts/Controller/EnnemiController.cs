@@ -5,7 +5,7 @@ using BarthaSzabolcs.Tutorial_SpriteFlash;
 public class EnnemiController : MonoBehaviour
 {
     private EnnemisModel ennemisModel;
-    private ColoredFlash coloredFlash;
+    //private ColoredFlash coloredFlash;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class EnnemiController : MonoBehaviour
     {
         Debug.Log(ennemisModel == null);
         ennemisModel.healthPoints.Add(-damage);
-        coloredFlash.Flash(Color.red);
+        //coloredFlash.Flash(Color.red);
 
         //GetValue1 est lié au Float Observable,GetValue1 est lié au Float Normalizable 
         if (ennemisModel.healthPoints.GetValue().GetValue() <= 0f)

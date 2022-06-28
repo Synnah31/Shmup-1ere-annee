@@ -27,6 +27,9 @@ public class ControllerCharacter : MonoBehaviour
     private float _canFire = -1f;
     [SerializeField] private float _fireRate = 0.2f;
 
+    private bool isShielded = false;
+
+    //Gestion déplacement
     [SerializeField] private float speed = 10;
     [SerializeField] private float speedCam = 4.5f;
 
@@ -148,7 +151,10 @@ public class ControllerCharacter : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ennemi" || collision.gameObject.tag == "EnemyProjectil")
         {
-            OnDamage();
+            if (isShielded == false)
+            {
+                OnDamage();
+            }
         }
 
         if (collision.gameObject.tag == "Wall")
@@ -187,6 +193,7 @@ public class ControllerCharacter : MonoBehaviour
             Debug.Log("PowerUpShiel taken");
         }
 
+        //Test gestion mur
         if (collision.gameObject.tag == "WallUp")
         {
             Input.GetKeyDown(KeyCode.G);
@@ -198,12 +205,14 @@ public class ControllerCharacter : MonoBehaviour
     {
         Debug.Log("coroutine Shield");
         animator.SetBool("HasShield", true);
+        isShielded = true;
         _weaponUp = false;
         yield return new WaitForSeconds(15f);
         animator.SetBool("ShieldBlink", true);      
         yield return new WaitForSeconds(5f);
         animator.SetBool("ShieldBlink", false);
         animator.SetBool("HasShield", false);
+        isShielded = false;
         animator.SetBool("HasGun", true);
         _weaponUp = true;
     }
