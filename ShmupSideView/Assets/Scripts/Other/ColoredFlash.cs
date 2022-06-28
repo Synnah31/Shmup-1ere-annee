@@ -20,13 +20,13 @@ namespace BarthaSzabolcs.Tutorial_SpriteFlash
         #region Private Fields
 
         // The SpriteRenderer that should flash.
-        private SpriteRenderer spriteRenderer;
+        public SpriteRenderer spriteRenderer;
 
         // The material that was in use, when the script started.
         private Material originalMaterial;
 
         // The currently running coroutine.
-        private Coroutine flashRoutine;
+        public Coroutine flashRoutine;
 
         #endregion
 
@@ -77,7 +77,7 @@ namespace BarthaSzabolcs.Tutorial_SpriteFlash
             flashMaterial.color = color;
 
             // Pause the execution of this function for "duration" seconds.
-            yield return new WaitForSeconds(duration);
+            yield return new WaitForSeconds(1.25f);
 
             // After the pause, swap back to the original material.
             spriteRenderer.material = originalMaterial;

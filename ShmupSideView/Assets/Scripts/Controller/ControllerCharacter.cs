@@ -10,6 +10,10 @@ public class ControllerCharacter : MonoBehaviour
 
     [SerializeField] private MenuController menuController;
 
+    [SerializeField] LifeView lifeViewHP1;
+    [SerializeField] LifeView lifeViewHP2;
+    [SerializeField] LifeView lifeViewHP3;
+
     //Gestion des projectiles
     public GameObject CharacterProjectile;
     // GameObject CharacterProjectile2;
@@ -68,6 +72,17 @@ public class ControllerCharacter : MonoBehaviour
         {
             deltaPosition.y = 0F;
         }
+
+        //Gestion des wall
+        /*if (characterModel.GetPosition().GetValue().y + deltaPosition.y >= WallBoxColliderLeft.transform.position.y + deltaY)
+        {
+            deltaPosition.y = 0F;
+        }
+        if (characterModel.GetPosition().GetValue().y + deltaPosition.y <= camera.transform.position.y - deltaY)
+        {
+            deltaPosition.y = 0F;
+        }*/
+
         //Same Speed as camera
         characterModel.AddPosition(new Vector2(speedCam * Time.deltaTime, 0f) + deltaPosition);
 
@@ -85,7 +100,33 @@ public class ControllerCharacter : MonoBehaviour
                 }
             }
         }
-        
+
+        //Gestion LifeView
+        if (characterModel.GetLife().GetValue().GetValue() == 3)
+        { 
+          lifeViewHP1.Enable();
+          lifeViewHP2.Enable();
+          lifeViewHP3.Enable();
+        }
+        if (characterModel.GetLife().GetValue().GetValue() == 2)
+        {
+            lifeViewHP1.Enable();
+            lifeViewHP2.Enable();
+            lifeViewHP3.Disable();
+        }
+        if (characterModel.GetLife().GetValue().GetValue() == 1)
+        {
+            lifeViewHP1.Enable();
+            lifeViewHP2.Disable();
+            lifeViewHP3.Disable();
+        }
+        if (characterModel.GetLife().GetValue().GetValue() == 0)
+        {
+            lifeViewHP1.Disable();
+            lifeViewHP2.Disable();
+            lifeViewHP3.Disable();
+        }
+
     }
 
     public void OnDamage()
@@ -145,8 +186,13 @@ public class ControllerCharacter : MonoBehaviour
             StartCoroutine(ShieldPowerUp());
             Debug.Log("PowerUpShiel taken");
         }
-    }
 
+        if (collision.gameObject.tag == "WallUp")
+        {
+            Input.GetKeyDown(KeyCode.G);
+        }
+    }
+    
     //Enumerator PowerUp Shield/Invincibility
     IEnumerator ShieldPowerUp()
     {

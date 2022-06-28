@@ -4,26 +4,23 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-public class LifeView : MonoBehaviour, IObserver<FloatNormalizable>
+public class LifeView : MonoBehaviour
 {
 
 
-    [SerializeField] public Image lifeImage;    //A créer sur la scène
+    [SerializeField] public GameObject lifeImage;    //A créer sur la scène
 
-    public void OnCompleted()
+    public void Enable()
     {
-        //throw new NotImplementedException();
+        lifeImage.SetActive(true);
     }
 
-    public void OnError(Exception error)
+    public void Disable()
     {
-        //throw new NotImplementedException();
+        lifeImage.SetActive(false);
     }
 
-    public void OnNext(FloatNormalizable value)
-    {
-        lifeImage.fillAmount = value.Normalize();
-    }
+
 
     // Start is called before the first frame update
     void Start()
