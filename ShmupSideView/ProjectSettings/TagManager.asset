@@ -17,6 +17,7 @@ TagManager:
   - WallLeft
   - WallRight
   - EnnemiProjectil
+  - CharacterShield
   layers:
   - Default
   - TransparentFX

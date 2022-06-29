@@ -46,6 +46,12 @@ public class GobelinLourdController : MonoBehaviour
             //Détruit directement. N'utilise pas encore un systeme de HP
             //Destroy(gameObject);
         }
+
+        if (collision.gameObject.tag == "CharacterShield")
+        {
+            Debug.Log("collision shield");
+            TakeHit(10);
+        }
     }
 
     public void ChangeColor()

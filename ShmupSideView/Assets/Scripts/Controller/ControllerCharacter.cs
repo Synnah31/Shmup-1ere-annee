@@ -23,6 +23,11 @@ public class ControllerCharacter : MonoBehaviour
     public Transform ProjectileSpawn;
     public Transform ProjectileSpawn2;
 
+    public GameObject TriggerShield1;
+    public GameObject TriggerShield2;
+    public GameObject TriggerShield3;
+    public GameObject TriggerShield4;
+
     private bool isSecondProjectil;
 
     //Gestion du tir
@@ -56,7 +61,7 @@ public class ControllerCharacter : MonoBehaviour
 
         animator = gameObject.GetComponent<Animator>();
 
-        //menuController = new MenuController();
+        
     }
 
     // Update is called once per frame
@@ -233,15 +238,23 @@ public class ControllerCharacter : MonoBehaviour
     {
         Debug.Log("coroutine Shield");
         animator.SetBool("HasShield", true);
+        TriggerShield1.SetActive(true);
+        TriggerShield2.SetActive(true);
+        TriggerShield3.SetActive(true);
+        TriggerShield4.SetActive(true);
         isShielded = true;
         _weaponUp = false;
         yield return new WaitForSeconds(15f);
-        animator.SetBool("ShieldBlink", true);      
+        animator.SetBool("ShieldBlink", true);
         yield return new WaitForSeconds(5f);
         animator.SetBool("ShieldBlink", false);
         animator.SetBool("HasShield", false);
         isShielded = false;
         animator.SetBool("HasGun", true);
+        TriggerShield1.SetActive(false);
+        TriggerShield2.SetActive(false);
+        TriggerShield3.SetActive(false);
+        TriggerShield4.SetActive(false);
         _weaponUp = true;
     }
 }
