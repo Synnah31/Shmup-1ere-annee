@@ -6,6 +6,14 @@ public class GobelinDistanceController : MonoBehaviour
 {
     private EnnemisModel ennemisModel;
 
+    //Gestion des projectiles
+    public GameObject GobelinProjectile;
+    // GameObject CharacterProjectile2;
+    public Transform ProjectileSpawn;
+
+    private float _canFire = -1f;
+    [SerializeField] private float _fireRate = 0.8f;
+
     //Changement couleur quand touché
     private SpriteRenderer RendererColorHit;
 
@@ -21,7 +29,11 @@ public class GobelinDistanceController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Time.time > _canFire)
+        {
+            _canFire = Time.time + _fireRate;
+            Instantiate(GobelinProjectile, ProjectileSpawn.position, transform.rotation);
+        }
     }
 
     public void TakeHit(float damage)

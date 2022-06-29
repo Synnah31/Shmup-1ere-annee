@@ -155,7 +155,7 @@ public class ControllerCharacter : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ennemi" || collision.gameObject.tag == "EnemyProjectil")
+        if (collision.gameObject.tag == "Ennemi" || collision.gameObject.tag == "EnnemiProjectil")
         {
             if (isShielded == false)
             {
@@ -201,6 +201,7 @@ public class ControllerCharacter : MonoBehaviour
         if (collision.gameObject.tag == "PowerUpInvincibilite")
         {
             StartCoroutine(ShieldPowerUp());
+            
             Debug.Log("PowerUpShiel taken");
         }
 
