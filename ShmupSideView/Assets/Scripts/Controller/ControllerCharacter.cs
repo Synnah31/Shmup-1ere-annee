@@ -8,6 +8,9 @@ public class ControllerCharacter : MonoBehaviour
     [SerializeField] private PositionView positionView;
     private CharacterModel characterModel;
 
+    //Changement couleur quand touché
+    private SpriteRenderer RendererColorHit;
+
     [SerializeField] private MenuController menuController;
 
     [SerializeField] LifeView lifeViewHP1;
@@ -47,6 +50,9 @@ public class ControllerCharacter : MonoBehaviour
         characterModel = new CharacterModel(2, 5, 3, 3);
         //characterModel.GetLife().Subscribe(lifeView);
         characterModel.GetPosition().Subscribe(positionView);
+
+        //Changement couleur quand touché
+        RendererColorHit = GetComponent<SpriteRenderer>();
 
         animator = gameObject.GetComponent<Animator>();
 
@@ -153,7 +159,12 @@ public class ControllerCharacter : MonoBehaviour
         {
             if (isShielded == false)
             {
+                //Changement couleur quand touché
+                RendererColorHit.color = Color.red;
+                Invoke("ChangeColor", 0.15f);
+                
                 OnDamage();
+                
             }
         }
 
@@ -199,8 +210,24 @@ public class ControllerCharacter : MonoBehaviour
             Input.GetKeyDown(KeyCode.G);
         }
     }
-    
-    //Enumerator PowerUp Shield/Invincibility
+
+    //Changement couleur quand touché
+    public void ChangeColor()
+    {
+        RendererColorHit.color = Color.white;
+    }
+
+    /*IEnumerator IsTouchedFlash()
+    {
+        Debug.Log("coroutine charac touched");
+
+        animator.SetBool("IsHurt", true);
+        yield return new WaitForSeconds(0.5f);
+        //animator.SetBool("IsHurt", false);
+
+    }*/
+
+    //Coroutine PowerUp Shield/Invincibility
     IEnumerator ShieldPowerUp()
     {
         Debug.Log("coroutine Shield");

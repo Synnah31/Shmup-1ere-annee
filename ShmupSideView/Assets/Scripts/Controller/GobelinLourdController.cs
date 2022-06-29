@@ -6,11 +6,17 @@ public class GobelinLourdController : MonoBehaviour
 {
     private GobelinLourdModel gobelinLourdModel;
 
+    //Changement couleur quand touché
+    private SpriteRenderer RendererColorHit;
+
 
     // Start is called before the first frame update
     void Start()
     {
         gobelinLourdModel = new GobelinLourdModel();
+
+        //Changement couleur quand touché
+        RendererColorHit = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -33,9 +39,17 @@ public class GobelinLourdController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Character Projectil")
         {
+            //Changement couleur quand touché
+            RendererColorHit.color = Color.red;
+            Invoke("ChangeColor", 0.10f);
             TakeHit(1);
             //Détruit directement. N'utilise pas encore un systeme de HP
             //Destroy(gameObject);
         }
+    }
+
+    public void ChangeColor()
+    {
+        RendererColorHit.color = Color.white;
     }
 }

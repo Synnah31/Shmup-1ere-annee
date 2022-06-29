@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using BarthaSzabolcs.Tutorial_SpriteFlash;
-public class EnnemiController : MonoBehaviour
+
+public class GobelinDistanceController : MonoBehaviour
 {
     private EnnemisModel ennemisModel;
 
@@ -21,7 +21,7 @@ public class EnnemiController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void TakeHit(float damage)
@@ -38,7 +38,7 @@ public class EnnemiController : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Character Projectil")
+        if (collision.gameObject.tag == "Character Projectil")
         {
             //Changement couleur quand touché
             RendererColorHit.color = Color.red;
