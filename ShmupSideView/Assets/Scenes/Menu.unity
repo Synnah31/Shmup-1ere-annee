@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 777213099}
   - component: {fileID: 777213098}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonJouer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -321,7 +321,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -443.85318, y: 61.74748}
+  m_AnchoredPosition: {x: -444, y: 65}
   m_SizeDelta: {x: 199.1477, y: 88.1508}
   m_Pivot: {x: 0.08081798, y: 0.5}
 --- !u!114 &777213098
@@ -368,9 +368,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 5f90e0a27a7015f449ffc5d12e80d562, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: 
+      - m_Target: {fileID: 1881625311}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: NextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 1080686302}
   - component: {fileID: 1080686301}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: ButtonQuitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -602,7 +602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 22}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -430.8, y: -250}
+  m_AnchoredPosition: {x: -441, y: -254}
   m_SizeDelta: {x: 181.5497, y: 87.6236}
   m_Pivot: {x: 0.08081798, y: 0.5}
 --- !u!114 &1080686301
@@ -648,7 +648,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1080686302}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1881625311}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1080686302
 MonoBehaviour:
   m_ObjectHideFlags: 0

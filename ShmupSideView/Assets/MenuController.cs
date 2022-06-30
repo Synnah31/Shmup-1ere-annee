@@ -24,6 +24,11 @@ public class MenuController : MonoBehaviour
         }
     }
 
+    public void NextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
@@ -48,5 +53,13 @@ public class MenuController : MonoBehaviour
     {
         Debug.Log("Jeu quitté...");
         Application.Quit();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            NextScene();
+        }
     }
 }
