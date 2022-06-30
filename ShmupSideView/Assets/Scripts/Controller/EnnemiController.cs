@@ -8,6 +8,7 @@ public class EnnemiController : MonoBehaviour
 
     //Changement couleur quand touché
     private SpriteRenderer RendererColorHit;
+    private Object ExplosionRef;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,9 @@ public class EnnemiController : MonoBehaviour
 
         //Changement couleur quand touché
         RendererColorHit = GetComponent<SpriteRenderer>();
+
+        //FX Explosion mort
+        ExplosionRef = Resources.Load("GobelinExplosion");
     }
 
     // Update is called once per frame
@@ -34,6 +38,8 @@ public class EnnemiController : MonoBehaviour
         if (ennemisModel.healthPoints.GetValue().GetValue() <= 0f)
         {
             Destroy(gameObject);
+            GameObject explosion = (GameObject)Instantiate(ExplosionRef);
+            explosion.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
